@@ -1,0 +1,38 @@
+
+body{
+    background-color: yellowgreen;
+}
+
+.container{
+    /* border: 1px solid salmon; */
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px lightblue;
+}
+
+
+.counter h1{
+    font-size: 2rem;
+}
+
+#count{
+    font-size: 9rem;
+}
